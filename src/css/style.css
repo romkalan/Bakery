@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: auto;
     padding-top: 10px;
@@ -41,4 +45,41 @@ a {
 .sectionBackground {
     height: 640px;
     background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+.sectionBackgroundBlock {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(
+            180deg,
+            rgba(244, 213, 178, 0.8) 0%,
+            rgba(234, 156, 65, 0.8) 100%
+    );
+    position: absolute;
+    top: 349px;
+    left: 730px;
+    padding-top: 15px;
+    border-radius: 90px;
+}
+
+.sectionBackgroundBorder {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 80px;
+    padding: 17px 0 0 15px;
+    text-align: left;
+}
+
+.sectionBackgroundTitle {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 9px 0;
+}
+
+.sectionBackgroundText {
+    font-size: 16px;
+    margin: 0;
 }
