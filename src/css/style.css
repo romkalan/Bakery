@@ -24,7 +24,7 @@ ul {
 }
 
 a:hover {
-    color: red;
+    color: #f15b40;
 }
 
 li {
@@ -88,6 +88,7 @@ a {
 
 .sectionDescriptionBox {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .sectionDescriptionBox img {
@@ -96,4 +97,25 @@ a {
 
 .sectionDescriptionBox img:last-child {
     margin-right: 0;
+}
+
+.sectionDescriptionTextBox {
+
+}
+
+.sctionDescriptionTitle {
+    margin: 0;
+    font-size: 96px;
+    text-align: center;
+}
+
+.red {
+    color: #f15b40;
+}
+
+.sectionDescriptionText {
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    width: 1000px;
 }
